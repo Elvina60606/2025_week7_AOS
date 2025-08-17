@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>商品列表頁</title>
+  </head>
+  <body>
+  
+    <%- include("./layout/header") %>
+
+    <div class="container">
+        <main class="my-32 my-md-16">
+            <nav class="mb-24 mb-md-12">
+                <ol class="d-flex">
+                    <li class="breadcrumb-item">
+                        <a class="text-neutral-600" href="index.html">首頁</a></li>
+
+                    <li class="breadcrumb-item">
+                        <a class="text-neutral-600" href="＃">女鞋</a></li>
+                    
+                    <li class="breadcrumb-item">
+                        <a href="products.html">所有商品</a></li>
+                </ol>
+            </nav>
+            <h3 class="h3 h4-md py-8 mb-24 mb-md-12">女鞋</h3>
+            <div class="row row-md">
+                <div class="col-2 d-md-none">
+                    <menu class="menu">
+                        <ul>
+                            <li><a class="d-block py-12 mb-16 text-primary-400" href="products.html">所有商品</a></li>
+                            <li><a class="d-block py-12 mb-16" href="products.html">慢跑鞋</a></li>
+                            <li><a class="d-block py-12 mb-16" href="products.html">滑板鞋</a></li>
+                            <li><a class="d-block py-12 mb-16" href="products.html">厚底鞋</a></li>
+                            <li><a class="d-block py-12" href="products.html">限定 / 聯名企劃</a></li>                        
+                       </ul>
+                    </menu>
+                </div>
+                <div class="col-10 col-md-4">
+                    <div class="row row-md mb-md-32">
+                        <div class="col-4 col-md-2 mb-48 mb-md-24">
+                            <a href="product-detail.html">
+                            <img class="mb-12 mb-md-8" src="/assets/images/product.png" alt="product">
+                            <h6 class="h6 mb-4 mb-md-0">PLATFORM 404</h6>
+                            <p class="price">NT$2,600</p>
+                            </a>
+                        </div>
+                        <div class="col-4 col-md-2 mb-48 mb-md-24">
+                            <a href="#">
+                            <img class="mb-12 mb-md-8" src="/assets/images/product-1.png" alt="product-1">
+                            <h6 class="h6 mb-4 mb-md-0">PLATFORM 404</h6>
+                            <p class="price">NT$2,600</p>
+                            </a>
+                        </div>
+                        <div class="col-4 col-md-2 mb-48 mb-md-24">
+                            <a href="#">
+                            <img class="mb-12 mb-md-8" src="/assets/images/product-2.png" alt="product-2">
+                            <h6 class="h6 mb-4 mb-md-0">VM001</h6>
+                            <p class="price">NT$2,600</p>
+                            </a>
+                        </div>
+                        <div class="col-4 col-md-2 mb-48 mb-md-24">
+                            <a href="#">
+                            <img class="mb-12 mb-md-8" src="/assets/images/product-3.png" alt="product-3">
+                            <h6 class="h6 mb-4 mb-md-0">Melty Kiss</h6>
+                            <p class="price">NT$4,000</p>
+                            </a>
+                        </div>
+                        <div class="col-4 col-md-2 mb-48 mb-md-24">
+                            <a href="#">
+                            <img class="mb-12 mb-md-8" src="/assets/images/product-4.png" alt="product-4">
+                            <h6 class="h6 mb-4 mb-md-0">BOOMBLOK</h6>
+                            <p class="price">NT$3,200</p>
+                            </a>
+                        </div>
+                        <div class="col-4 col-md-2 mb-48 mb-md-24">
+                            <a href="#">
+                            <img class="mb-12 mb-md-8" src="/assets/images/product-5.png" alt="product-5">
+                            <h6 class="h6 mb-4 mb-md-0">BOOMBLOK</h6>
+                            <p class="price">NT$3,200</p>
+                        </div>
+                        <div class="col-4 col-md-2 mb-48 mb-md-24">
+                            <img class="mb-12 mb-md-8" src="/assets/images/product-6.png" alt="product-6">
+                            <h6 class="h6 mb-4 mb-md-0">R:UNER</h6>
+                            <p class="price">NT$4,000</p>
+                            </a>
+                        </div>
+                        <div class="col-4 col-md-2 mb-48 mb-md-24">
+                            <a href="#">
+                            <img class="mb-12 mb-md-8" src="/assets/images/product-7.png" alt="product-7">
+                            <h6 class="h6 mb-4 mb-md-0">Sugar Snap</h6>
+                            <p class="price">NT$4,000</p>
+                            </a>
+                        </div>
+                        <div class="col-4 col-md-2 mb-48 mb-md-24">
+                            <a href="#">
+                            <img class="mb-12 mb-md-8" src="/assets/images/product-8.png" alt="product-8">
+                            <h6 class="h6 mb-4 mb-md-0">Neofoam</h6>
+                            <p class="price">NT$4,000</p>
+                            </a>
+                        </div>
+                        <div class="col-4 col-md-2 mb-48 mb-md-24 d-none d-md-block">
+                            <a href="#">
+                            <img class="mb-12 mb-md-8" src="/assets/images/product-9.png" alt="product-9">
+                            <h6 class="h6 mb-4 mb-md-0">Buttermood</h6>
+                            <p class="price">NT$4,000</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pagination">
+                        <ul class="d-flex justify-center align-center">
+                            <li><button type="button" class="btn page-item me-12" disabled><i class="bi bi-chevron-left"></i></button></li>
+                            <li><button type="button" class="btn page-num me-8  active" >1</button></li>
+                            <li><button type="button" class="btn page-num me-8">2</button></li>
+                            <li><button type="button" class="btn page-num me-8">3</button></li>
+                            <li><button type="button" class="btn page-num me-8">...</button></li>
+                            <li><button type="button" class="btn page-num me-8">10</button></li>
+                            <li><button type="button" class="btn page-item"><i class="bi bi-chevron-right"></i></button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <%- include("./layout/footer") %>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

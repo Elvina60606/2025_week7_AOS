@@ -1,0 +1,37 @@
+
+.btn{
+    font-family: "Noto Sans TC", sans-serif;
+    color: $neutral-900;
+    background: transparent;
+    border-radius: 4px;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    border: none;
+    &:not(:disabled) hover{
+        color: $primary-500;
+    }
+    
+}
+
+@media (max-width:576px) {
+    .btn{
+        padding: 8px 16px;
+    }
+}
+
+.btn-dark{
+    background: $neutral-900;
+    color: $neutral-white;
+    &:hover{
+        background-color: $neutral-700;
+        color: $neutral-white;
+    }
+}
+
+
+.btn-green{
+    background: $primary-300;
+}

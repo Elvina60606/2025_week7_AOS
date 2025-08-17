@@ -1,0 +1,28 @@
+/*引入字體*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+/*變數.通用樣式*/
+@import "./helper/variables";
+@import "./helper/utils";
+
+/*第三方套件*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+/*base*/
+@import "./base/reset";
+@import "./base/base";
+
+/*components*/
+@import "./components/button";
+@import "./components/breadcrumb";
+
+/*layout*/
+@import "./layout/header";
+@import "./layout/footer";
+
+/*page*/
+@import "./pages/index";
+@import "./pages/story";
+@import "./pages/products";
+@import "./pages/product-detail"
+
